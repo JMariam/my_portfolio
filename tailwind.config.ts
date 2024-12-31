@@ -8,9 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      screen: {
+        phone: "520px",
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#B3B7EE",
+        secondary: "#C5E3E8",
+        accent: "#3C5186",
+        text: "#3D3D3D",
+
       },
     },
   },
