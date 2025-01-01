@@ -21,8 +21,8 @@ const MouseEffect = () => {
     <div
     className="fixed top-0 left-0 w-full h-full pointer-events-none z-50 transition-all duration-75"
     style={{
-      background: `radial-gradient(circle at ${position.x}px ${position.y}px, rgba(255, 255, 255, 0.35), transparent 30%)`,
-      filter: "blur(8px)",
+      background: `radial-gradient(circle at ${position.x}px ${position.y}px, rgba(255, 255, 255, 0.35), transparent 25%)`,
+      
     }}
   />
   );

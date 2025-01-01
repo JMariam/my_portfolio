@@ -3,9 +3,11 @@
 
 import Layout from "@/Components/Layout";
 // import type { AppProps } from "next/app";
-import React from "react";
+
+import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { IoMailOpen } from "react-icons/io5";
 
 import Projects from "@/Components/Projects";
 
@@ -22,10 +24,31 @@ export default function Home() {
               unde.
             </p>
           </div>
-          <div className="flex gap-4 ">
-            <FaGithub className="text-[32px] text-accent" />
-            <FaLinkedin className="text-[32px] text-accent" />
-            <FaSquareXTwitter className="text-[32px] text-accent" />
+          <div className="flex gap-6 ">
+            <Link
+              href="https://github.com/JMariam?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub className="text-[32px] text-accent cursor-pointer" />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/mariam-jubril/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="text-[32px] text-accent cursor-pointer" />
+            </Link>
+            <Link
+              href="https://x.com/MariamJubril7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaSquareXTwitter className="text-[32px] text-accent cursor-pointer" />
+            </Link>
+            <Link href="mailto:mariamjubril29@gmail.com">
+              <IoMailOpen className="text-[32px] text-accent cursor-pointer" />
+            </Link>
           </div>
         </div>
         {/* <div className="w-[50%] self-center">

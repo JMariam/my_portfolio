@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Josefin_Sans } from "next/font/google";
+import { IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 
 // const geistSans = localFont({
@@ -7,7 +7,7 @@ import "./globals.css";
 //   variable: "--font-geist-sans",
 //   weight: "100 900",
 // });
-const josefin = Josefin_Sans({
+const josefin = IBM_Plex_Mono({
   subsets: ["latin"],
   weight: ["200", "300", "400", "500", "600", "700"],
 });
