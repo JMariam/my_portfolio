@@ -23,17 +23,11 @@ body{
   @apply bg-primary text-text;
 }
 
-/* global.css */
-main {
-  position: relative;
-  overflow: hidden; /* Ensures smooth clipping of sections during animation */
+/* global.css or inside the component */
+html, body {
+  scroll-snap-type: y mandatory;
 }
 
-.section-hidden {
-  transform: translateY(0); /* Initial state */
-}
-
-.section-contact-visible {
-  transform: translateY(-100vh); /* Slides the rest of the sections up */
-  transition: transform 0.8s ease-in-out; /* Smooth animation */
+main > section {
+  scroll-snap-align: start;
 }
