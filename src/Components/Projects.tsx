@@ -17,11 +17,15 @@ export default function Projects() {
         <p className="text-[18px] lg:w-[30%]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
           unde.
-          </p>
+        </p>
       </div>
       <div className="grid lg:grid-cols-7 gap-6 ">
         <div className="relative lg:col-span-3">
-          <img src="/pro2.png" alt="" className="h-[15rem] lg:h-[20rem] w-full" />
+          <img
+            src="/pro2.png"
+            alt=""
+            className="h-[15rem] lg:h-[20rem] w-full"
+          />
           <div className="w-[100%] h-[15rem] lg:h-[20rem] top-0 left-0 absolute bg-secondary gap-6 p-8 flex justify-center lg:items-center flex-col opacity-0 hover:opacity-100 transition-all">
             <p className="lg:text-center text-[13px] lg:text-[18px]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab porro
@@ -39,8 +43,12 @@ export default function Projects() {
           </div>
         </div>
         <div className="relative  lg:col-span-4">
-          <img src="/pro1.png" alt="" className="h-[15rem] lg:h-[30rem] w-full" />
-          <div className="w-[100%] h-[15rem] lg:h-[20rem] top-0 left-0 absolute bg-secondary gap-6 p-8 flex justify-center lg:items-center flex-col opacity-0 hover:opacity-100 transition-all">
+          <img
+            src="/pro1.png"
+            alt=""
+            className="h-[15rem] lg:h-[30rem] w-full"
+          />
+          <div className="w-[100%] h-[15rem] lg:h-[30rem] top-0 left-0 absolute bg-secondary gap-6 p-8 flex justify-center lg:items-center flex-col opacity-0 hover:opacity-100 transition-all">
             <p className="lg:text-center text-[13px] lg:text-[18px]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab porro
               iste obcaecati fugiat voluptates repudiandae sapiente voluptatum
@@ -57,8 +65,12 @@ export default function Projects() {
           </div>
         </div>
         <div className="relative  lg:col-span-4">
-          <img src="/pro2.png" alt="" className="h-[15rem] lg:h-[30rem] w-full" />
-          <div className="w-[100%] h-[15rem] lg:h-[20rem] top-0 left-0 absolute bg-secondary gap-6 p-8 flex justify-center lg:items-center flex-col opacity-0 hover:opacity-100 transition-all">
+          <img
+            src="/pro2.png"
+            alt=""
+            className="h-[15rem] lg:h-[30rem] w-full"
+          />
+          <div className="w-[100%] h-[15rem] lg:h-[30rem] top-0 left-0 absolute bg-secondary gap-6 p-8 flex justify-center lg:items-center flex-col opacity-0 hover:opacity-100 transition-all">
             <p className="lg:text-center text-[13px] lg:text-[18px]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab porro
               iste obcaecati fugiat voluptates repudiandae sapiente voluptatum
@@ -75,7 +87,11 @@ export default function Projects() {
           </div>
         </div>
         <div className="relative  lg:col-span-3">
-          <img src="/pro1.png" alt="" className="h-[15rem] lg:h-[20rem] w-full" />
+          <img
+            src="/pro1.png"
+            alt=""
+            className="h-[15rem] lg:h-[20rem] w-full"
+          />
           <div className="w-[100%] h-[15rem] lg:h-[20rem] top-0 left-0 absolute bg-secondary gap-6 p-8 flex justify-center lg:items-center flex-col opacity-0 hover:opacity-100 transition-all">
             <p className="lg:text-center text-[13px] lg:text-[18px]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab porro
