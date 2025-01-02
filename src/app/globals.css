@@ -23,6 +23,17 @@ body{
   @apply bg-primary text-text;
 }
 
-.back{
-  color: #c5e3e8d7;
+/* global.css */
+main {
+  position: relative;
+  overflow: hidden; /* Ensures smooth clipping of sections during animation */
+}
+
+.section-hidden {
+  transform: translateY(0); /* Initial state */
+}
+
+.section-contact-visible {
+  transform: translateY(-100vh); /* Slides the rest of the sections up */
+  transition: transform 0.8s ease-in-out; /* Smooth animation */
 }

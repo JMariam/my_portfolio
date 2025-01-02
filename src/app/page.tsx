@@ -10,6 +10,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { IoMailOpen } from "react-icons/io5";
 
 import Projects from "@/Components/Projects";
+import CopyEmail from "@/Components/CopyEmail";
 
 export default function Home() {
   return (
@@ -59,6 +60,8 @@ export default function Home() {
       {/* PROJECTS */}
 
       <Projects />
+
+      <CopyEmail/>
     </Layout>
   );
 }
