@@ -1,18 +1,10 @@
 "use client";
-import React, { useState } from "react";
-// import classNames from "classnames";
 
-interface ContactsProps {
-  contactRef: React.RefObject<HTMLElement>;
-  isContactVisible: boolean;
-}
+import React, {useState} from 'react'
 
-const Contacts: React.FC<ContactsProps> = ({
-  contactRef,
-  isContactVisible,
-}) => {
+export default function Contacts() {
+ 
   const [copied, setCopied] = useState(false);
-  // const [isContactVisible, setIsContactVisible] = useState(false);
   const email = "mariamjubril29@gmail.com";
 
   const handleCopy = () => {
@@ -21,31 +13,14 @@ const Contacts: React.FC<ContactsProps> = ({
       setTimeout(() => setCopied(false), 3000);
     });
   };
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const contactSection = document.getElementById("contact");
-  //     if (contactSection) {
-  //       const rect = contactSection.getBoundingClientRect();
-  //       if (rect.top <= window.innerHeight / 2) {
-  //         setIsContactVisible(true);
-  //       } else {
-  //         setIsContactVisible(false);
-  //       }
-  //     }
-  //   };
 
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
 
   return (
     <section
       id="contact"
-      ref={contactRef}
-      className="fixed bottom-0 left-0 w-full min-h-screen bg-secondary flex items-center justify-center text-white "
-      style={{ zIndex: 1 }}
+      
+      className="h-screen bg-secondary flex items-center justify-center text-white "
+      
     >
       <div className=" w-[80%] mx-auto p-6 bg-accent h-[70%] flex flex-col justify-center">
         <p className="">I am always available for a chat</p>
@@ -57,6 +32,4 @@ const Contacts: React.FC<ContactsProps> = ({
       </div>
     </section>
   );
-};
-
-export default Contacts;
+}
