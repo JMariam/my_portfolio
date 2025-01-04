@@ -24,10 +24,6 @@ body{
 }
 
 /* global.css or inside the component */
-html, body {
-  scroll-snap-type: y mandatory;
-}
-
-main > section {
-  scroll-snap-align: start;
+html {
+  scroll-behavior: smooth;
 }
