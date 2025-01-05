@@ -11,7 +11,7 @@ import { IoMailOpen } from "react-icons/io5";
 
 import Projects from "@/Components/Projects";
 import Contacts from "@/Components/Contacts";
-import ScrollEffect from "@/Components/ScrollEffect";
+import ScrollAnimation from "@/Components/ScrollEffect";
 
 export default function Home() {
   return (
@@ -62,8 +62,10 @@ export default function Home() {
 
       <Projects />
 
+      
+      <ScrollAnimation>
       <Contacts />
-      <ScrollEffect />
+      </ScrollAnimation>
     </Layout>
   );
 }
